@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python my_insight.py -inp ./data_samples/mist/mist_google_drive --photo_dir ./data_samples/photos/vangogh --output_dir 20250523_insight_mist --opt_type opt --epsilon 0 --pgd_stepsize 0 --steps 500 --opt_lr 0.05 --lpips_budget 0.1 --lpips_rate 0.1 --lnorm_rate 1. --loss_encoder_rate 1. --loss_semantic_rate 0.01 --loss_watermark_rate 0.01

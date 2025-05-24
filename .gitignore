@@ -1,0 +1,15 @@
+hub/
+src/
+outputs/dirs/
+models/
+*.bin
+*.ckpt
+*.npz
+*.sh
+__pycache__/
+*__pycache__*
+*.sw[pon]
+!/ldm/models/
+wandb/
+*.egg-info/
+*.egg
